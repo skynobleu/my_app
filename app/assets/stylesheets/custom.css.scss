@@ -15,6 +15,9 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  background-image: url(image_path('saologin.gif'));
+  background-repeat:no-repeat;
+  background-size: contain; 
 }
 
 section {
@@ -148,6 +151,22 @@ aside {
 
 .gravatar_edit {
   margin-top: 15px;
+}
+
+/* experiments */
+.jumbotron{
+
+    position: centre;
+
+    padding:0;
+    margin-top:70px ;
+    background: rgba(255,0,0,0);
+    margin-top: 23px;
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 0 ;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /* forms */
